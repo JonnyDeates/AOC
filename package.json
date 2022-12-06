@@ -1,0 +1,15 @@
+{
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "func() { node ./\"$1\"/\"$1\".js; }; func",
+    "new": "func() { mkdir ./\"$1\" && touch ./\"$1\"/\"$1\".js; }; func",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
